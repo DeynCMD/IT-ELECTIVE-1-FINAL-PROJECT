@@ -1,0 +1,128 @@
+/* login.css */
+
+body {
+  margin: 0%;
+}
+
+.login-page {
+  background: #e4f1f7;
+  background: linear-gradient(180deg, rgba(228, 241, 247, 1) 0%, rgba(216, 237, 223, 1) 50%, rgba(139, 233, 247, 1) 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+h1 {
+  -webkit-text-fill-color: black;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 90vh;
+  margin-left: 20px;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-right: 25%;
+}
+
+.logo-image {
+  width: 226px;
+  margin-bottom: -15px;
+}
+
+
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    height: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.login-box p {
+    color: #000000;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000; 
+}
+
+.login-box select{
+  font-size: 16px;
+  background-color: aquamarine;
+  border-color: aqua;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button {
+  background-color: aquamarine;
+  color: #000000; 
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  width: 40%;
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background: white;
+  border: 2px solid aqua;
+}
+
+.login-box select:hover {
+  background: white;
+  border: 2px solid aqua;
+}
+
+.login-box input {
+  background: white;
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid aqua;
+  border-radius: 25px;
+  font-size: 16px;
+}
