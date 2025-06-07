@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZE COMPANY</title>
+    <link rel="stylesheet" href="../assets/style/login.css">
+</head>
+<body>
+<div class="login-page">
+    <div class="main-container">
+        <h1>ZE COMPANY</h1>
+
+        <!-- ✅ Added form tag and ID -->
+        <form id="login-form" class="login-box">
+            <label for="user_type">Select Department</label>
+            <select id="user_type" name="user_type" required>
+                <option value="finance">Finance</option>
+                <option value="#">Buyer</option>
+                <option value="#">Manager</option>
+                <option value="#">PO/PR</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <button type="submit" name="loginForm">Login</button>
+        </form>
+    </div>
+</div>
+
+<script src="Javascripts/login.js"></script>
+</body>
+</html>
