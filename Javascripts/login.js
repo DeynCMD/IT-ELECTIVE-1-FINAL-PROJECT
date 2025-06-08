@@ -16,4 +16,13 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     } else if (userType === 'por') {
         window.location.href = 'PO-PR-login.html';
     }
+
+    if (userType === 'admin') {
+        // Placeholder for admin login logic
+        if (username === 'admin' && password === 'admin') {
+            window.location.href = 'admin-dashboard.html';
+        } else {
+            alert('Invalid admin username or password.');
+        }
+    }
 });
